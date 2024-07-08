@@ -60,7 +60,7 @@ class ReadController
             $images = [];
             $crawler->filterXPath('//div[contains(@id, "page_")]/img')
                 ->each(function (Crawler $node, int $i) use (&$images) {
-                    $images[] = $node->attr('data-original');
+                    $images[] = $node->attr('data-src');
                 });
 
             array_shift($images);
