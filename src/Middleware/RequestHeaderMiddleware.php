@@ -17,7 +17,7 @@ class RequestHeaderMiddleware
 
         $referer = match ($site) {
             'hentaivn' => 'https://hentaivn.de/',
-            'nettruyen' => 'https://www.nettruyenup.com/',
+            'nettruyen' => 'https://www.nettruyenupp.com/',
             default => false
         };
 
